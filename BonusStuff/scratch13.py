@@ -24,3 +24,11 @@ def password(user_input):
     else:
         return True
 print (password('MyCatMan5'))
+
+def foo(temperature):
+    if temperature > 25:
+        return 'Hot'
+    elif 15 < temperature < 25:
+        return "warm"
+    elif temperature < 15:
+        return 'cold'
